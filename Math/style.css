@@ -1,0 +1,101 @@
+body {
+   
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(90deg, rgba(3,0,62,1) 0%, rgba(41,41,209,1) 40%, rgba(0,212,255,1) 100%);         /* background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+        /* background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(207,161,205,1) 25%, rgba(76,121,173,1) 50%);           */ 
+}
+.container{
+    padding: 40px;
+    box-shadow: 0 0 10px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px blue;
+    background: black;
+    /* background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(207,161,205,1) 25%, rgba(38,66,98,1) 55%); } */
+}
+h1{
+   color: #c9d6ff
+   ;
+   margin-bottom: 10px;
+font-size: 24px;
+}
+p{
+    color: #e2e2e2;
+   margin-bottom: 10px;
+font-size: 12px;
+}
+.container-input{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 10px;
+    width: 42%;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;   
+}
+
+button {
+    width: 55%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(3,0,62,1) 0%, rgba(110,110,166,1) 50%, rgba(0,212,255,1) 100%);     border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s;
+    margin: 10px;
+  }
+  button:hover {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(212,178,211,1) 25%, rgba(10,29,51,1) 50%); 
+
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+  #result1
+  {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+   #result2
+   {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+    #result3
+    {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+      }
+
+ 
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+  }
+  /* ... your existing styles ... */
+
